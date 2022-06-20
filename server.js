@@ -3,7 +3,7 @@ const express = require('express');
 const mongo = require('mongodb');
 const app = express();
 
-var url = `mongodb://localhost:27017/`;
+var url = `mongodb://mongo:27017/`;
 var MongoClient = mongo.MongoClient;
 
 app.set('port', 3000);
